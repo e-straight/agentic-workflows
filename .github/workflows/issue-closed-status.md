@@ -20,6 +20,7 @@ An issue was just closed. Do two things:
    - Who did the work (closer + assignees)
    - Resolution (completed, won't fix, or duplicate)
    - Keep it concise (2-3 sentences max)
+   - **Status logic**: Check the remaining open issues in the project backlog. Only set status to COMPLETE if there are zero open issues remaining. Otherwise use ON_TRACK (or AT_RISK if there are blockers).
 
 2. **Post a comment on the issue** with a Slack-ready message formatted like:
    ✅ **[Issue title]** — completed by @user
