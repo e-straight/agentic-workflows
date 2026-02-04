@@ -3,6 +3,10 @@ name: Issue Closed Status Update
 on:
   issues:
     types: [closed]
+permissions:
+  contents: read
+  issues: read
+  pull-requests: read
 safe-outputs:
   create-project-status-update:
 ---
