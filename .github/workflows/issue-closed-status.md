@@ -9,12 +9,19 @@ permissions:
   pull-requests: read
 safe-outputs:
   create-project-status-update:
+  add-comment:
+    max: 1
 ---
 
-An issue was just closed. Create a project status update for Project #2 that includes:
+An issue was just closed. Do two things:
 
-1. **What was completed**: The issue title and a brief summary of what it addressed
-2. **Who did the work**: The user who closed the issue and any assignees
-3. **Resolution**: Whether it was completed, won't fix, or duplicate
+1. **Project status update** for Project #2:
+   - What was completed (issue title + brief summary)
+   - Who did the work (closer + assignees)
+   - Resolution (completed, won't fix, or duplicate)
+   - Keep it concise (2-3 sentences max)
 
-Keep the update concise (2-3 sentences max).
+2. **Post a comment on the issue** with a Slack-ready message formatted like:
+   ✅ **[Issue title]** — completed by @user
+   > One sentence summary of what was done.
+   Format it so I can copy/paste directly into Slack.
