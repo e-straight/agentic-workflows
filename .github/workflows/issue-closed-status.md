@@ -7,6 +7,9 @@ permissions:
   contents: read
   issues: read
   pull-requests: read
+tools:
+  github:
+    toolsets: [default, projects]
 safe-outputs:
   create-project-status-update:
   add-comment:

@@ -20,7 +20,7 @@
 # For more information: https://github.com/github/gh-aw/blob/main/.github/aw/github-agentic-workflows.md
 #
 #
-# frontmatter-hash: 61d739b746a4343ecd959b5a9f15817ebc08ccb3cce3c69a88b7d054d942fe1b
+# frontmatter-hash: 94d9fa523c9b8a9a3bf5d28117191a0bd0ba5e1c4ae2f4c88910201f7f3b5c2f
 
 name: "Status Update Summary"
 "on":
@@ -419,7 +419,7 @@ jobs:
                   "GITHUB_LOCKDOWN_MODE": "$GITHUB_MCP_LOCKDOWN",
                   "GITHUB_PERSONAL_ACCESS_TOKEN": "\${GITHUB_MCP_SERVER_TOKEN}",
                   "GITHUB_READ_ONLY": "1",
-                  "GITHUB_TOOLSETS": "context,repos,issues,pull_requests"
+                  "GITHUB_TOOLSETS": "context,repos,issues,pull_requests,projects"
                 }
               },
               "safeoutputs": {

@@ -20,7 +20,7 @@
 # For more information: https://github.com/github/gh-aw/blob/main/.github/aw/github-agentic-workflows.md
 #
 #
-# frontmatter-hash: 82756f9f1c6679debf53762776e66e5f0664c3a3554b13876673b6ac6b472b0d
+# frontmatter-hash: bf7e1774f36cb96b424d1201dd02d74dfec423abd783f4c5d06a337d8c9519b2
 
 name: "Issue Closed Status Update"
 "on":
@@ -451,7 +451,7 @@ jobs:
                   "GITHUB_LOCKDOWN_MODE": "$GITHUB_MCP_LOCKDOWN",
                   "GITHUB_PERSONAL_ACCESS_TOKEN": "\${GITHUB_MCP_SERVER_TOKEN}",
                   "GITHUB_READ_ONLY": "1",
-                  "GITHUB_TOOLSETS": "context,repos,issues,pull_requests"
+                  "GITHUB_TOOLSETS": "context,repos,issues,pull_requests,projects"
                 }
               },
               "safeoutputs": {
